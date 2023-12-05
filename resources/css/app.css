@@ -1,0 +1,35 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+
+.card-block {
+    min-width: 300px;
+    width: 30%;
+    transition: 0.3s;
+}
+
+.card-block:hover {
+    transform: scale(1.03);
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plus {
+    display:inline-block;
+    width:120px;
+    height:120px;
+    transition: 0.3s;
+}
+
+.bi-plus-square  {
+    font-size: 3em;
+}
+
+.destroy-icons:hover {
+    color: var(--bs-danger)
+}
